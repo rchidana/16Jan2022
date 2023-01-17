@@ -1,21 +1,21 @@
 pipeline {
     agent any
     stages {
-        stage('Compile') {
+        stage('Git Checkout Phase') {
             steps {
-                    echo "Compiled Successfully!!";
+                    echo "Source Code Checkout Successful!!";
             }
         }
         
-        stage('JUnit') {
+        stage('Compile Phase') {
             steps {
-                    echo "JUnit Passed Successfully!";
+                    echo "Maven compiled Code Successfully!";
             }
         }
         
-        stage('Quality-Gate') {
+        stage('Unit Test Phase') {
             steps {
-                    echo "SonarQube Quality Gate passed successfully!!"; 
+                    echo "JUnit and SonarQube Quality Gate passed successfully!!"; 
                 /*sh exit ("1");*/
             }
         }
