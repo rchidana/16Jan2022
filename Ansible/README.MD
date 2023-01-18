@@ -21,8 +21,11 @@ Additionally, in the /etc/ansible/ansible.cfg, add or uncomment the following co
 host_key_checking=False
 ```
 
-Fire your first ansible command as follows <br>
+Fire your first ansible adhoc command as follows <br>
 
 ```
 ansible routers -m ping -vvvv
+ansible routers -m ios_command -a "commands='show version'"
+ansible routers -m ios_command -a "commands='show clock'"
+ansible routers -m ios_command -a "commands='show interfaces'"
 ```
