@@ -1,9 +1,9 @@
 ### Cisco Device Details
 
-CSR1000v Host: sandbox-iosxe-latest-1.cisco.com
-SSH Port: 22
-NETCONF Port: 830
-gRPC Telemetry Port: 57500
-RESTCONF Port: 443 (HTTPS)
-Username: developer
-Password: C1sco12345
+<br>CSR1000v Host: sandbox-iosxe-latest-1.cisco.com
+<br>SSH Port: 22
+<br>NETCONF Port: 830
+<br>gRPC Telemetry Port: 57500
+<br>RESTCONF Port: 443 (HTTPS)
+<br>Username: developer
+<br>Password: C1sco12345
